@@ -29,7 +29,7 @@ def bokeh(condition=None, feature=None):
         fig.line('Datetime', i, source=source)
         fig.title.text='{}'.format(i.upper())
         fig.xaxis.axis_label='TimeStamp'
-        fig.yaxis.axis_label='Values'
+        fig.yaxis.axis_label='Value'
         fig_lst.append(fig)
 
     print(fig_lst)
