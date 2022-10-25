@@ -3,9 +3,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: dldydgnl2080/hw4
-    container_name: hw4c
+    image: dldydgnl2080/capstone
+    container_name: capstone
   production:
-    image: dldydgnl2080/hw4:3.0
+    image: dldydgnl2080/capstone:1.0
     ports: 
       - "80:80"
