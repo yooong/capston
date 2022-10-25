@@ -8,7 +8,7 @@ from bokeh.util.string import encode_utf8
 from bokeh.models import ColumnDataSource
 from bokeh.layouts import row, column, gridplot
 
-df=pd.read_csv('C:\Users\yong\Desktop\kang.csv')
+df=pd.read_csv('C:/Users/yong/Desktop/kang.csv')
 df=df.set_index('measure_date')
 df.index=pd.to_datetime(df.index)
 df.index.name='Datetime'
