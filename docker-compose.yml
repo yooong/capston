@@ -8,4 +8,4 @@ services:
   production:
     image: dldydgnl2080/capstone:1.0
     ports: 
-      - "90:90"
+      - "80:80"
